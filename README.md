@@ -13,7 +13,7 @@ npm install -g commitlint-go-npm
 # or
 yarn install commitlint-go-npm
 # or
-bun add commitlint-rs-npm
+bun add commitlint-go-npm
 ```
 
 ## Environment variables
