@@ -1,0 +1,38 @@
+{
+  "name": "commitlint-go-npm",
+  "version": "0.10.1",
+  "type": "module",
+  "description": "commitlint checks if your commit messages meets the conventional commit format",
+  "author": "Davlatjon Shavkatov <opensource@dalisoft.uz>, Muthu Krishnan",
+  "files": [
+    "prepare.js"
+  ],
+  "bin": {
+    "commitlint": "./commitlint"
+  },
+  "engines": {
+    "node": ">=18.19.1"
+  },
+  "scripts": {
+    "prepare": "node ./prepare.js"
+  },
+  "keywords": [
+    "git",
+    "go",
+    "linter",
+    "conventional-commits",
+    "conventional-commit"
+  ],
+  "dependencies": {
+    "binary2npm": "^0.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalisoft/commitlint-go-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dalisoft/commitlint-go-npm/issues"
+  },
+  "homepage": "https://github.com/dalisoft/commitlint-go-npm#readme",
+  "license": "Apache-2.0"
+}
