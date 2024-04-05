@@ -1,6 +1,6 @@
 {
   "name": "commitlint-go-npm",
-  "version": "0.10.1",
+  "version": "0.10.1c",
   "type": "module",
   "description": "commitlint checks if your commit messages meets the conventional commit format",
   "author": "Davlatjon Shavkatov <opensource@dalisoft.uz>, Muthu Krishnan",
@@ -14,7 +14,7 @@
     "node": ">=18.19.1"
   },
   "scripts": {
-    "prepare": "node ./prepare.js"
+    "postinstall": "node ./prepare.js"
   },
   "keywords": [
     "git",
