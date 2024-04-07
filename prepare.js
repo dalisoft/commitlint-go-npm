@@ -14,4 +14,6 @@ await prepare({
   repository: "commitlint",
   remoteToken: process.env.GITHUB_TOKEN,
   binary: "commitlint",
+  stableOnly: false,
+  orders: ["binary", "version", "os", "arch"],
 });
