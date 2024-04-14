@@ -11,11 +11,11 @@ Look at [official documentation](https://github.com/conventionalcommit/commitlin
 ## Installation
 
 ```sh
-npm install -g commitlint-go-npm
+npm install dalisoft/commitlint-go-npm -D
 # or
-yarn install commitlint-go-npm
+yarn install dalisoft/commitlint-go-npm -D
 # or
-bun add commitlint-go-npm
+bun add dalisoft/commitlint-go-npm -D
 ```
 
 ## Environment variables
