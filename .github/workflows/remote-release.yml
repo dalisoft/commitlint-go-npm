@@ -8,6 +8,7 @@ on:
 env:
   repository: conventionalcommit/commitlint
   project: commitlint
+  PRE_RELEASE: true
 
 jobs:
   remote-release:
